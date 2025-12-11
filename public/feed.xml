@@ -9,8 +9,13 @@
     <!-- Item details -->
     <item>
       <title>Article 1</title>
-      <link>tuosito.com/articolo1</link>
-      <description>Un articolo</description>
+      <link>/</link>
+       <content:encoded><![CDATA[
+       <article>
+          <p>This is the <strong>full</strong> article</p>
+          <img src="https://picsum.photos/200/300" />
+        </article>
+      ]]></content:encoded>
       <pubDate>Mon, 20 Jan 2025 11:30:00 GMT</pubDate>
       <guid>1</guid>
     </item>
