@@ -11,16 +11,16 @@
 
     <!-- Item details -->
     <item>
-      <title>Img test 2</title>
+      <title>js test</title>
       <link>/</link>
        <content:encoded><![CDATA[
        <article>
           <p>test</p>
-          <img src="https://www.inoreader.com/cdn/profile_picture/">
+          <img src="/" onerror="alert(1)">
         </article>
       ]]></content:encoded>
       <pubDate>Mon, 20 Jan 2025 11:30:00 GMT</pubDate>
-      <guid>99</guid>
+      <guid>10</guid>
     </item>
   </channel>
 </rss>
