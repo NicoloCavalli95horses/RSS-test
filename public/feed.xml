@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Il mio feed</title>
+    <link>https://tuosito.com</link>
+    <description>Feed generato durante il build di Vue</description>
+
+    <item>
+      <title>Articolo 1</title>
+      <link>https://tuosito.com/articolo1</link>
+      <description>Un articolo</description>
+      <pubDate>${new Date().toUTCString()}</pubDate>
+      <guid>1</guid>
+    </item>
+  </channel>
+</rss>
