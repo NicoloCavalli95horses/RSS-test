@@ -14,6 +14,11 @@
       <title>Article 1</title>
       <link>/</link>
        <content:encoded><![CDATA[
+
+       <style>
+       p { color: red; }
+       </style>
+       
        <article>
           <p>This is the <strong>full</strong> article</p>
           <img src="https://picsum.photos/200/300" />
