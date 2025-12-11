@@ -15,8 +15,8 @@
       <link>/</link>
        <content:encoded><![CDATA[
        <article>
-          <p>This is the <strong>full</strong> article</p>
-          <img src="https://picsum.photos/200/300" />
+          <input type="text" placeholder="insert your secret">
+          <p>test</p>
         </article>
       ]]></content:encoded>
       <pubDate>Mon, 20 Jan 2025 11:30:00 GMT</pubDate>
