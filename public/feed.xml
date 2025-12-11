@@ -19,7 +19,6 @@
         <link>/</link>
         <content:encoded><![CDATA[
        <article>
-          <input type="text" placeholder="insert your secret">
           <p>test</p>
         </article>
       ]]>        </content:encoded>
