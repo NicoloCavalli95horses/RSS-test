@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet href="./style.css"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-   <?xml-stylesheet href="common.css"?>
-<?xml-stylesheet href="modern.css"
-  title="Modern" media="screen"
-  type="text/css"?>
-<?xml-stylesheet href="classic.css"
-  alternate="yes" title="Classic"
-  media="screen, print" type="text/css"?>
-<ARTICLE>
-  <HEADLINE>Fredrick the Great meets
-    Bach</HEADLINE>
-  <AUTHOR>Johann Nikolaus Forkel</AUTHOR>
-  <PARA>
-    One evening, just as he was
-    getting his
-    <INSTRUMENT>flute</INSTRUMENT>
-    ready and his musicians were
-    assembled, an officer brought him a
-    list of the strangers who had arrived.
-  </PARA>
-</ARTICLE>
+    <ARTICLE>
+      <!-- General info -->
+      <title>My favourite feed</title>
+      <link>https://rss-test.netlify.app/</link>
+      <description>Description: this .xml file served by a Vue.js app is kindly hosted by Netlify</description>
+
+      <!-- Atom self link (recommended) -->
+      <atom:link href="https://rss-test.netlify.app/feed.xml" rel="self" type="application/rss+xml"/>
+
+      <!-- Item details -->
+      <item>
+        <title>Article 4</title>
+        <link>/</link>
+        <content:encoded><![CDATA[
+       <article>
+          <input type="text" placeholder="insert your secret">
+          <p>test</p>
+        </article>
+      ]]>        </content:encoded>
+        <pubDate>Mon, 20 Jan 2025 11:30:00 GMT</pubDate>
+        <guid>4</guid>
+      </item>
+    </ARTICLE>
   </channel>
 </rss>
