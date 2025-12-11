@@ -11,10 +11,9 @@
 
     <!-- Item details -->
     <item>
-      <title>Article 1</title>
+      <title><div style="color:red;">Article 1</div></title>
       <link>/</link>
        <content><![CDATA[
-
        <style>
        p { color: red; }
        </style>
