@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <!-- General info -->
     <title>My favourite feed</title>
     <link>https://rss-test.netlify.app/</link>
     <description>Description: this .xml file served by a Vue.js app is kindly hosted by Netlify</description>
+ 
+     <!-- Atom self link (recommended) -->
+    <atom:link href="https://rss-test.netlify.app/feed.xml" rel="self" type="application/rss+xml"/>
 
     <!-- Item details -->
     <item>
