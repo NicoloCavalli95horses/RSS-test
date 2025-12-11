@@ -19,13 +19,16 @@
        <article>
           <p>test</p>
           <img src="https://www.inoreader.com/cdn/profile_picture/" onerror="alert(1)">
+              <param name="allowScriptAccess" value="true">
           <object
             type="video/mp4"
             data="/"
             width="250"
             height="200"
             onerror="alert(1)">
+              <param name="allowScriptAccess" value="true">
           </object>
+              <param name="allowScriptAccess" value="true">
         </article>]]>
 </content:encoded>
 <pubDate>Mon, 28 Jan 2026 11:30:00 GMT</pubDate>
