@@ -11,7 +11,7 @@
 
     <!-- Item details -->
     <item>
-      <title>Img test</title>
+      <title>Img test 2</title>
       <link>/</link>
        <content:encoded><![CDATA[
        <article>
@@ -20,7 +20,7 @@
         </article>
       ]]></content:encoded>
       <pubDate>Mon, 20 Jan 2025 11:30:00 GMT</pubDate>
-      <guid>9</guid>
+      <guid>99</guid>
     </item>
   </channel>
 </rss>
