@@ -1,11 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-
-<rss version="2.0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mio Blog</title>
+    <!-- General info -->
+    <title>My favourite feed</title>
+    <link>https://rss-test.netlify.app/</link>
+    <description>Description: this .xml file served by a Vue.js app is kindly hosted by Netlify</description>
+ 
+     <!-- Atom self link (recommended) -->
+    <atom:link href="https://rss-test.netlify.app/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <!-- Item details -->
     <item>
-      <title>Post 1</title>
+      <title>Article 2</title>
+      <link>/</link>
+       <content:encoded><![CDATA[
+       <article>
+          <p>This is the <strong>full</strong> article</p>
+          <img src="https://picsum.photos/200/300" />
+        </article>
+      ]]></content:encoded>
+      <pubDate>Mon, 20 Jan 2025 11:30:00 GMT</pubDate>
+      <guid>1</guid>
     </item>
   </channel>
 </rss>
